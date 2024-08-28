@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.ericsson.nms.litp</groupId>
+    <artifactId>ERIClitppackageapi</artifactId>
+<<<<<<< HEAD
+    <version>1.4.2-SNAPSHOT</version>
+=======
+    <version>1.4.1</version>
+>>>>>>> Publish
+    <packaging>pom</packaging>
+    <parent>
+        <groupId>com.ericsson.litp</groupId>
+        <artifactId>integration</artifactId>
+        <version>1.0.1466</version>
+    </parent>
+
+    <scm>
+        <developerConnection>${ericsson.scm.url}</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+    <modules>
+        <module>ERIClitppackageapi_CXP9030582</module>
+    </modules>
+</project>
